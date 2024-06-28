@@ -1,0 +1,3 @@
+﻿Connection string:
+
+dotnet ef dbcontext scaffold "Server=localhost,1433;Database=test;User ID=SA;Password=MyStrongPass123;" "Microsoft.EntityFrameworkCore.SqlServer" --schema "timefree_training" --output-dir "Models/EF/Training" --context "Training" --use-database-names --no-pluralize --force
